@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- font-awesome-link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Honda CBR</title>
+
     <!-- bootstrap-css-link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- Google-font-link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <!-- custom-style-link -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,54 +31,60 @@
                 <p class="mt-3">Amet minim molit non deserunt ullamco est sit aliqua dolor do amet sint. Velit offica consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 
                 <!-- Button trigger modal -->
-<button type="button" class="btn btn btn-warning px-5 py-2 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Purchase
-</button>
+                <button type="button" class="btn btn btn-warning px-5 py-2 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Purchase
+                </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Are you willinh to order now?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+<!--------------------------------------------------------- Modal ---------------------------------------------------------->
+
+                <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          <h1 class="text-danger">Congratulations!</h1>
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h2>Your order has been placed</h2> <br>
+                        You will recieve a conformation email with your transportation number along with information on how to track your order once it has been shipped
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-md-6 col-12 mt-md-0 mt-5">
-                  <img class="img-fluid" src="images/header-bike.png" alt="">
+                  <img class="img-fluid" src="images/header-bike.png" alt="header-bike">
               </div>
             </div>
           </div>
     </header>
     <main>
+      <!-- --------------------------------------------features option ---------------------------------------------->
         <div class="honda-fetures text-center my-5 ">
             <h1 class="fw-bold">Featured Bikes 2021</h1>
             <small>Best Bike collection</small>
         </div>
-        <section class="container pb-5">
-            <div class="row px-5 g-5">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <img class="img-fluid bike-img " width="288px" src="images/feature-bike.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <img class="img-fluid" width="288px" src="images/feature-bike.jpg" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <img class="img-fluid bike-img" width="288px" src="images/feature-bike.jpg" alt="">
-                    </div>
-                </div>
-        </section>
-        <!-- Latest news -->
+          <section class="container pb-5">
+              <div class="row px-5 g-5">
+                      <div class="col-lg-4 col-md-6 col-12">
+                          <img class="img-fluid bike-img " width="288px" src="images/feature-bike.jpg" alt="feature-bike">
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-12">
+                          <img class="img-fluid" width="288px" src="images/feature-bike.jpg" alt="feature-bike">
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-12">
+                          <img class="img-fluid bike-img" width="288px" src="images/feature-bike.jpg" alt="feature-bike">
+                      </div>
+                  </div>
+          </section>
+
+        <!------------------------------------------------- Latest news --------------------------------------------------->
         <div>
             <h1 class="fw-bold text-center mt-5">Latest News</h1>
         </div>
@@ -81,37 +92,37 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
                 <div class="col">
                   <div class="card h-100 shadow-sm border-0">
-                    <img src="images/bike-1.png" class="card-img-top card-img mx-auto mt-3 px-2" alt="...">
+                    <img src="images/bike-1.png" class="card-img-top card-img mx-auto mt-3 px-2" alt="bike-1">
                     <div class="card-body">
                       <h5 class="card-title">Ducati XDIAVEL S-73</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div>
-                    <div class="btn btn btn-warning m-3">Read More</div>
+                    <div class="btn btn btn-warning text-white m-3">Read More</div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100 shadow-sm border-0">
-                    <img src="images/bike-2.png" class="card-img-top card-img mx-auto mt-3 px-2" alt="...">
+                    <img src="images/bike-2.png" class="card-img-top card-img mx-auto mt-3 px-2" alt="bike-2">
                     <div class="card-body">
                       <h5 class="card-title">Ducati XDIAVEL S-73</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div>
-                    <div class="btn btn btn-warning m-3">Read More</div>
+                    <div class="btn btn btn-warning text-white m-3">Read More</div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card h-100 shadow-sm border-0">
-                    <img src="images/bike-3.png" class="card-img-top card-img mx-auto mt-3 px-2" alt="...">
+                    <img src="images/bike-3.png" class="card-img-top card-img mx-auto mt-3 px-2" alt="bike-3">
                     <div class="card-body">
                       <h5 class="card-title">Ducati XDIAVEL S-73</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div>
-                    <div class="btn btn btn-warning m-3">Read More</div>
+                    <div class="btn btn btn-warning text-white m-3">Read More</div>
                     </div>
                   </div>
                 </div>
@@ -120,7 +131,7 @@
         </section>
 
 
-        <!-- happy clients says -->
+        <!---------------------------------------------------- happy clients says ------------------------------------------------->
         <div class="text-center">
           <h1>Happy <span class="clients-color">Clients Says</span></h1>
         </div>
@@ -128,7 +139,7 @@
           <div class="row  d-flex g-4 justify-content-evenly ">
             <div class="col-lg-4 col-12 comment-card mb-5">
               <div class="card">
-                <img src="images/user-1.png" class="card-body img-fluid mx-auto py-4" width="149px" alt="...">
+                <img src="images/user-1.png" class="card-body img-fluid mx-auto py-4" width="149px" alt="customer">
                 <div class="card-body text-center">
             
                   <p class="card-text">Slate helps you see how many more days you need to work to reach your finacial goal for the month and year.</p>
@@ -149,7 +160,7 @@
             </div>
             <div class="col-lg-4 col-12 comment-card mb-5">
               <div class="card">
-                <img src="images/user-2.png" class="card-body img-fluid mx-auto py-4" width="149px" alt="...">
+                <img src="images/user-2.png" class="card-body img-fluid mx-auto py-4" width="149px" alt="customer">
                 <div class="card-body text-center">
             
                   <p class="card-text">Slate helps you see how many more days you need to work to reach your finacial goal for the month and year.</p>
@@ -170,7 +181,7 @@
             </div>
             <div class="col-lg-4 col-12 comment-card mb-5">
               <div class="card">
-                <img src="images/user-1.png" class="card-body img-fluid mx-auto py-4" width="149px" alt="...">
+                <img src="images/user-3.jpg" class="my-4 pb-1 img-fluid mx-auto  rounded-circle" width="149px" alt="customer">
                 <div class="card-body text-center">
             
                   <p class="card-text">Slate helps you see how many more days you need to work to reach your finacial goal for the month and year.</p>
@@ -194,7 +205,7 @@
           </div>
         </section>
 
-
+<!-------------------------------------------------------------------- Questions --------------------------------------------------->
 
         <section class="container">
             <div class="text-center mb-5 mt-5">
@@ -202,11 +213,11 @@
             </div>
             <div class="row">
               <div class="col-lg-6 d-flex justify-content-center">
-                  <img class="img-fluid" width="431px" src="images/faq.png" alt="">
+                  <img class="img-fluid" width="424px" src="images/faq.png" alt="FAQ">
               </div>
-              <div class="col-lg-6 my-5">
+              <div class="col-lg-6 ">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
-                  <div class="accordion-item mb-3">
+                  <div class="accordion-item mb-4">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                         What are the most important thinhg i should know about riding a bike?
@@ -220,7 +231,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item mb-3 border-top">
+                  <div class="accordion-item mb-4 border-top py-2">
                     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                         What rules should i follow when i riding my bike?
@@ -232,7 +243,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item mb-3 border-top">
+                  <div class="accordion-item mb-4 border-top py-2">
                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                         How can i tell if my helmet is old and i need a new one?
@@ -244,7 +255,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item mb-3 border-top">
+                  <div class="accordion-item mb-4 border-top py-2">
                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                         My bike has been in storage is it safe or ride?
@@ -260,9 +271,86 @@
               </div>
             </div>
         </section>
+
+
+<!-- ---------------------------------------------communication-section -------------------------------------------------------->
+
+        <section class="container mt-5 mb-5">
+          <div class="row">
+            <div style="height: 300px;" class="bg-light d-flex justify-content-center align-items-center shadow-lg col-12 rounded-3 lg-12" id="Subscribe">
+              <div>
+                <h1 class="clients-color">LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input class="form-control" type="text" placeholder="Your Email">
+                <br>
+                <div class="btn btn btn-warning text-white">SUBMIT</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+<!------------------------------------------------------ Extra-sections ----------------------------------------------------------------->
+        <section class="container">
+          <h1 class="fw-bold text-center">Have A <span class="clients-color ">Look</span></h1>
+          
+        </section>
+        <section class="container mt-5">
+        <div class="row d-flex align-items-center mb-5">
+          <div class="col-md-6">
+            <article class="carousel">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <div class="carousel-img"><img src="images/bike-1.png" class="d-block w-100 " alt="Byke"></div>
+                    <div style="color: rgb(233, 13, 13);" class="fw-bolder carousel-caption d-none d-md-block">
+                      <div>
+                        <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-img"><img src="images/bike-2.png" class="d-block w-100 " alt="Byke"></div>
+                    <div style="color: rgb(233, 13, 13);" class="fw-bolder carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-img"><img src="images/bike-3.png" class="d-block w-100 " alt="Byke"></div>
+                    <div style="color: rgb(233, 13, 13);" class="fw-bolder carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+              
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-12 mt-5 mt-md-0">
+            <div class="watch-video d-flex justify-content-end">
+              <iframe class="rounded-3" width="100%" height="400" src="https://www.youtube.com/embed/IVb3ecOiW_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-
+        <p class="bg-info mb-0 text-white text-center"><i class="far fa-copyright"></i>2021 Bike. All rights reserved</p>
     </footer>
 
 

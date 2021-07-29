@@ -32,3 +32,14 @@ body{
 h1 span{
     color: #E76F51;
 }
+.carousel-img{
+    position: relative;
+}
+.carousel-img::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(231, 225, 225, 0.582));
+    top: 0;
+}
