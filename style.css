@@ -1,0 +1,34 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-background{
+    background-color: #264653;
+}
+
+.honda-fetures small{
+    color: #E76F51;
+}
+.bike-img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.card-img{
+    width: 21rem;
+
+}
+.comment-card{
+    width: 21rem;
+}
+.clients-color{
+    color: #E76F51;
+}
+.fa-star{
+    color: #E77C40;
+    width: 22px;
+}
+.customer-name{
+    color:#23A6F0
+}
+h1 span{
+    color: #E76F51;
+}
